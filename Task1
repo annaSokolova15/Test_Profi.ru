@@ -1,0 +1,7 @@
+def remove_duplicates(x):
+a = []
+for i in x:
+if i not in a:
+a.append(i)
+return a
+print (remove_duplicates([1, 3, 2, 1, 5, 3, 5, 1, 4]))
