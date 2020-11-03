@@ -1,0 +1,3 @@
+lseparatedOrbList = [1, 3, 2, 1, 5, 3, 5, 1, 4]
+from collections import OrderedDict
+list(OrderedDict.fromkeys(lseparatedOrbList))
